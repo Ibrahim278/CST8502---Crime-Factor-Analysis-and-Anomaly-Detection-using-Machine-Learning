@@ -14,3 +14,5 @@ The tools used were:
 - Python
 - VS Code - This was chosen over Jupyter Notebook due to its integration with LLM Agents.
 - MS Office to present our work and type our final report.
+
+Based on our results, our Decision Tree model returned an 82% accuracy on the training data, our K-Means Clustering model returned 10 clusters with cluster 8 returning the most instances. For outlier detection, Isolation Forest detected the most outliers at 519 and Mahalanobis-Distance detected only 58 outliers. All 4 methods (LOF, ISF, One-Class SVM and Mahalanobis-Distance) returned 9 common outliers.
